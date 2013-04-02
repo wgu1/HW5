@@ -1,8 +1,11 @@
 ﻿/* DIV formatting */
-#container{background:coral; padding:20px; margin:0 auto; border:1px solid pink; width:900px;}
-#header{background-color:Purple; color:White; padding:10px; margin:0 auto; border 1px solid black; }
+#container{background:pink; padding:20px; margin:0 auto; border:1px solid pink; width:900px;}
+#header{background-color:coral; color:White; padding:10px; margin:0 auto; border 1px solid black; height:100px;}
 #menu{background:orange; color:White; padding:10px; margin:0 auto; border-left: 1px solid black; border-right: 1px solid black;}
 #main {background:white; padding 10px; margin:0 auto; border-left: 1px solid black; border-right: 1px solid black;}
 #footer {background:grey; color:Black; padding:10px; margin:0 auto; border:1px solid black;text-align:center}
 
 p1{font-family:Segoe UI; font-size:medium;}
+
+.hdr_img {float:right; margin:0; padding:0; border:0; }
+h1{font-size:50px}

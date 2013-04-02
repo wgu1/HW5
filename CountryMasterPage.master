@@ -16,7 +16,9 @@
     <form id="form1" runat="server">
     <div id="container">
         <div id="header">
-            
+
+            <asp:Image class="hdr_img" ID="earthImage" runat="server" Height="97px" 
+                ImageUrl="~/image/earth.png" Width="107px" />
             <h1>    Country Database</h1>
 
         </div>
