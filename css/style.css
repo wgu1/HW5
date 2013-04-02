@@ -9,3 +9,9 @@ p1{font-family:Segoe UI; font-size:medium;}
 
 .hdr_img {float:right; margin:0; padding:0; border:0; }
 h1{font-size:50px}
+
+.level1 {color: white; font-size:large; font-weight: bold;font-family:Segoe UI Symbol; text-decoration:overline;}
+
+.level2{color: White; background-color: navy; font-family:Segoe UI Semibold; font-size: medium;}
+
+.loginstatus{float:right; font-family:Segoe UI Light}

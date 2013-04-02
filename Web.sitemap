@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="."  description="">
+      
+        <siteMapNode url="~/default.aspx" title="Home/"  description="" />
+        <siteMapNode url="~/viewData" title="View Countries Data/"  description="" />
+      
+      <siteMapNode url="~/admin/default.aspx" title="Admin/"  description="" >
+        <siteMapNode url="~/admin/editDatabase.aspx" title="View and Edit the database"  description="" />
+        <siteMapNode url="~/admin/addCountry.aspx" title="Add a New Country"  description="" />
+      </siteMapNode>
+
+      
+        <siteMapNode url="~/login/default.aspx" title="Login"  description="" />
+    </siteMapNode>
+</siteMap>

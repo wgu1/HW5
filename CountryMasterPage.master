@@ -24,7 +24,23 @@
         </div>
 
         <div id="menu">
-            menu
+            <asp:LoginStatus class="loginstatus" ID="LoginStatus1" runat="server" 
+                LoginText="Welcome" />
+
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation = "horizontal">
+            
+
+                <LevelMenuItemStyles>
+                            <asp:MenuItemStyle CssClass="level1"/>
+                            <asp:MenuItemStyle CssClass="level2"/>
+                </LevelmenuItemStyles>
+
+            </asp:Menu>
+
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" showstartingnode = "false"/>
+
+
+
         </div>
 
         <div id="main">
