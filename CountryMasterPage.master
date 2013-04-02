@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" CodeFile="CountryMasterPage.master.vb" Inherits="CountryMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            
+            <h1>    Country Database</h1>
+
+        </div>
+
+        <div id="menu">
+            menu
+        </div>
+
+        <div id="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        </div>
+
+        <div id="footer">
+
+            Copywrite@Wei Gu
+
+        </div>
+
+
+    </div>
+    </form>
+</body>
+</html>
