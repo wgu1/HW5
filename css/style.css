@@ -15,3 +15,96 @@ h1{font-size:50px}
 .level2{color: White; background-color: navy; font-family:Segoe UI Semibold; font-size: medium;}
 
 .loginstatus{float:right; font-family:Segoe UI Light}
+
+.deletedCountries{color: Red;font-style:italic; font-weight:bold; text-decoration:underline;}
+
+
+
+
+
+
+/* CSS to format a gridview -- START*/
+
+
+.cssgridview { width:100%; margin:5px 0 10px 0; border:solid 1px black; border-collapse:collapse; text-align:center; font-family:Segoe UI; color: #7C6F57; background-color: pink}
+
+
+.cssgridview td { padding:10px; border:solid 1px #c1c1c1; color:#717171; }
+
+.cssgridview td a, a:visited { color:#717171; text-decoration:none; }
+
+
+.cssgridview th { padding:10px; color:white; background:#424242 url(./images/css/grd_head.png) repeat-x top; border-left:solid 1px #525252; font-size:0.9em; }  
+
+.cssgridview th a { color:white; text-decoration:none; }  
+
+.cssgridview th a:hover { color:white; background-color:#7C6F57; text-decoration:underline; }
+
+
+.cssgridview .alt { background: #fcfcfc url(./images/css/grd_alt.png) repeat-x top;}
+
+
+.cssgridview .pgr { background: #424242 url(./css/grd_pgr.png) repeat-x top; }  
+
+.cssgridview .pgr table { margin: 5px 0; }  
+
+.cssgridview .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }     
+
+.cssgridview .pgr a { color: #666; text-decoration: none; }  
+
+.cssgridview .pgr a:hover { color: #000; text-decoration: underline; }
+
+
+/* CSS to format a gridview -- END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS to format a detailsview --START */
+
+
+.cssdetailsview { font-family:Segoe UI; background-color:pink; margin:5px 0 10px 0; border:solid 1px #525252; border-collapse:collapse; text-align:center; }
+
+
+.cssdetailsview td { padding:10px; border:solid 1px #c1c1c1; color:#717171; text-align:left;}
+
+
+.cssdetailsview .header td { text-align:center; padding:4px 2px; color:silver; background:#424242 url(./css/grd_head.png) repeat-x top; border-left:solid 1px #525252; }
+
+
+.cssdetailsview .fieldheader { color:coral; width:150px; text-align:right;}
+
+
+.cssdetailsview .altrow { background: #fcfcfc url(./css/grd_alt.png) repeat-x top; }
+
+
+.cssdetailsview .command {  background: #424242 url(./css/grd_pgr.png) repeat-x top; line-height: 20px;}
+
+.cssdetailsview .command td { text-align:center;}
+
+.cssdetailsview .command a {color:Silver; text-decoration:none; padding:10px; }
+
+.cssdetailsview .command a:hover {color:Silver; text-decoration:underline; }
+
+.cssdetailsview .pager { background: #424242 url(./css/grd_pgr.png) repeat-x top; }  
+
+.cssdetailsview .pager table { margin: 5px 0; }  
+
+.cssdetailsview .pager td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }     
+
+.cssdetailsview .pager a { color: #666; text-decoration: none; }  
+
+
+.cssdetailsview .pager a:hover { color: silver; text-decoration: underline;}
+
+
+/* CSS to format a detailsview --END */
